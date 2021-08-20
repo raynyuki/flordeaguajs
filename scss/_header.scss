@@ -1,0 +1,34 @@
+
+/*estilos header*/
+
+.navbar{
+    padding-bottom: 30px;
+
+    & .nav-link{
+        color: darken(#B8B8DF, 15%);
+        text-decoration:none;
+        &.active{
+            color:#fca011;
+        }
+        &:hover{
+            color: darken(#B8B8DF, 30%);
+        }
+    }
+}
+
+
+.logotitle{
+    color: darken(#B8B8DF, 15%);
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 400;
+    font-size: 45px;
+    &:hover{
+        color: darken(#B8B8DF, 30%);
+    }
+}
+
+
+
+
+
+/*fin de estilos header*/

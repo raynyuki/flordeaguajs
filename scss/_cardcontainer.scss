@@ -1,0 +1,33 @@
+.cardContainer{
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+}
+
+.calendarioImagen{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.tip_img{
+    float: left;
+    height: max-content;
+}
+
+.tip{
+    padding: 15px;
+    & p {
+        padding: 20px;
+    }
+}
+
+.aboutUs{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    .aboutus__img{
+        float: left;
+        height:max-content;
+        padding-right: 15px;
+    }
+}

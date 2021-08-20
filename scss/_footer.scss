@@ -1,0 +1,22 @@
+/*estilo footer*/
+
+footer{
+    background-color: lighten(#B8B8DF, 15%); 
+    padding-top: 5px;
+    @include fontSetting;
+    color: darken(#B8B8DF, 15%); ;
+    & a{
+        padding: 5px;
+        color: darken(#B8B8DF, 20%);
+        text-decoration:none;
+        &:hover{
+            color: #fca011;
+        }
+    }
+  
+    
+}
+
+
+
+/*fin de estilo footer*/

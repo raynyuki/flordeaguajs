@@ -1,0 +1,39 @@
+@import "variables";
+@import "header";
+@import "footer";
+@import "cardcontainer";
+
+
+.carousel-inner img {
+    margin: auto;
+    width: 100%;
+  }
+
+p{
+    @include fontSetting;
+    color: darken(#B8B8DF, 20%);
+
+}
+
+body{
+    font-family: $fontFamily;
+    max-height: 100vh;
+    padding: -0;
+}
+
+.banner{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    & .banner_img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
