@@ -17,8 +17,8 @@ let nombreUsuario = localStorage.getItem('nombre');
 
 let contenedor = document.createElement("li");
 
-contenedor.className = "nav-item"
+contenedor.className = "nav-link bienvenidaUser"
 
-contenedor.innerHTML = `<p>Bienvenidx ${nombreUsuario} </p>`;
+contenedor.innerHTML = `<a>Bienvenidx ${nombreUsuario} </a>`;
 
-itemBienvenida.appendChild(contenedor);
+itemBienvenida[0].appendChild(contenedor);
