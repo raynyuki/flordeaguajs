@@ -12,6 +12,9 @@
 .navbar .nav-link:hover {
   color: #4f4faf;
 }
+.navbar .bienvenidaUser {
+  color: #F48691;
+}
 
 .logotitle {
   color: #8383c7;
@@ -92,6 +95,9 @@ body {
 }
 
 .banner {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
   padding-top: 30px;
   padding-bottom: 20px;
 }
