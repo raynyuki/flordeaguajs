@@ -2,25 +2,80 @@
 .navbar {
   padding-bottom: 30px;
 }
+
 .navbar .nav-link {
   color: #8383c7;
   text-decoration: none;
 }
+
 .navbar .nav-link.active {
   color: #fca011;
 }
+
 .navbar .nav-link:hover {
   color: #4f4faf;
 }
 
+.navbar .bienvenidaUser {
+  color: #F48691;
+}
+
 .logotitle {
   color: #8383c7;
-  font-family: "Homemade Apple", cursive;
+  font-family: 'Homemade Apple', cursive;
   font-weight: 400;
   font-size: 45px;
 }
+
 .logotitle:hover {
   color: #4f4faf;
+}
+
+.formShape {
+  border-radius: 5px;
+  margin-right: 0px;
+  border-color: #B8B8DF;
+  color: #B8B8DF;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+input:focus {
+  color: #fca011;
+}
+
+.loginButton {
+  border-radius: 5px;
+  border: none;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #8383c7;
+  height: 84%;
+  width: 100%;
+  background-color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 0%;
+  margin-right: 7px;
+  margin-left: 0%;
+}
+
+#loginItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 /*fin de estilos header*/
@@ -32,11 +87,13 @@ footer {
   font-weight: 600;
   color: #8383c7;
 }
+
 footer a {
   padding: 5px;
   color: #7272bf;
   text-decoration: none;
 }
+
 footer a:hover {
   color: #fca011;
 }
@@ -54,12 +111,15 @@ footer a:hover {
 
 .tip_img {
   float: left;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
 }
 
 .tip {
   padding: 15px;
 }
+
 .tip p {
   padding: 20px;
 }
@@ -68,10 +128,20 @@ footer a:hover {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .aboutUs .aboutus__img {
   float: left;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   padding-right: 15px;
+}
+
+#clickRpta0, #clickRpta1, #clickRpta2 {
+  background-color: white;
+  color: #fca011;
+  border-color: #B8B8DF;
+  border-radius: 5px;
 }
 
 .carousel-inner img {
@@ -88,15 +158,18 @@ p {
 body {
   font-family: "Dosis", sans-serif;
   max-height: 100vh;
-  padding: 0;
+  padding: -0;
 }
 
 .banner {
+  max-width: 100%;
+  padding-left: -0;
+  padding-right: -0;
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
 .banner .banner_img {
   width: 100%;
 }
-
 /*# sourceMappingURL=estilo.css.map */
