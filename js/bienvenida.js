@@ -1,6 +1,31 @@
 
+const URLJSON = 'https://jsonplaceholder.typicode.com/posts'
 
-let boton = document.getElementById("buttonLogin")
+$('#buttonLogin').click(function () {
+
+   var userData = $('input#userName').val();
+   console.log(userData);
+   if (userData !== "") {
+       $.ajax({
+           url: URLJSON, 
+           method: 'POST',
+           data: {
+               name: userData 
+           },
+           success: function (data) {
+               console.log(data);
+               $(`#userName`).remove();
+               $(`#buttonLogin`).remove();
+               $(`#loginItem`).prepend(`<p class="nav-link bienvenidaUser">Bienvenidx `+ userData + `</p>`);
+           },
+       });
+   } else {
+       alert("Insert a name!");
+   }
+});
+
+
+/*let boton = document.getElementById("buttonLogin")
 boton.addEventListener ("click", respuestaClick)
 function respuestaClick (){
     
@@ -25,4 +50,4 @@ function nombreBienvenida (itemText) {
     nombreUser.appendChild(nombreUserText)
     itemBienvenida.appendChild(nombreUser)
 }
-
+*/
