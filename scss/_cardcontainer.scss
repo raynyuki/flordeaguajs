@@ -31,3 +31,57 @@
         padding-right: 15px;
     }
 }
+
+#clickRpta0, #clickRpta1, #clickRpta2{
+    background-color: white;
+    color:#fca011;
+    border-color: #B8B8DF;
+    border-radius: 5px;
+}
+
+.cardContainerMes{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    
+}
+
+.calendario ul{
+    
+    color: darken(#B8B8DF, 15%);
+}
+
+.calendario li{
+    list-style-type: none;
+    color:#fca011;
+}
+
+.calendario{
+    font-family: $fontFamily;
+    font-size: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #C8F2C7 ;
+    max-width: 50%;
+    padding: 35px;
+    background-color: lighten($color: #C8F2C7, $amount: 2%); 
+    text-align: center;
+
+}
+
+.mesImg{
+    padding: 10px;
+}
+
+.cajitaMes{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.txtMes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}

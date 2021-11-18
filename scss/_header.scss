@@ -14,6 +14,9 @@
             color: darken(#B8B8DF, 30%);
         }
     }
+    & .bienvenidaUser{
+        color:#F48691;
+    }
 }
 
 
@@ -27,8 +30,42 @@
     }
 }
 
+.formShape{
+    border-radius: 5px;
+    margin-right: 0px;
+    border-color: #B8B8DF;
+    color:#B8B8DF; 
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+input:focus{
+    color:#fca011;
+}
 
 
+.loginButton{
+    border-radius: 5px;
+    border:none;
+    @include fontSetting;
+    color: darken(#B8B8DF, 15%);
+    height: 84%;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    align-items: flex-end;
+    margin-bottom: 0%;
+    margin-right: 7px;
+    margin-left: 0%;
+    
+    
 
+}
+
+#loginItem{
+    display: flex;
+    flex-direction: row;
+  
+}
 
 /*fin de estilos header*/
