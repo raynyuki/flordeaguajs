@@ -12,6 +12,9 @@
 .navbar .nav-link:hover {
   color: #4f4faf;
 }
+.navbar .bienvenidaUser {
+  color: #F48691;
+}
 
 .logotitle {
   color: #8383c7;
@@ -21,6 +24,40 @@
 }
 .logotitle:hover {
   color: #4f4faf;
+}
+
+.formShape {
+  border-radius: 5px;
+  margin-right: 0px;
+  border-color: #B8B8DF;
+  color: #B8B8DF;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+input:focus {
+  color: #fca011;
+}
+
+.loginButton {
+  border-radius: 5px;
+  border: none;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #8383c7;
+  height: 84%;
+  width: 100%;
+  background-color: white;
+  display: inline-flex;
+  align-items: flex-end;
+  margin-bottom: 0%;
+  margin-right: 7px;
+  margin-left: 0%;
+}
+
+#loginItem {
+  display: flex;
+  flex-direction: row;
 }
 
 /*fin de estilos header*/
@@ -74,6 +111,56 @@ footer a:hover {
   padding-right: 15px;
 }
 
+#clickRpta0, #clickRpta1, #clickRpta2 {
+  background-color: white;
+  color: #fca011;
+  border-color: #B8B8DF;
+  border-radius: 5px;
+}
+
+.cardContainerMes {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.calendario ul {
+  color: #8383c7;
+}
+
+.calendario li {
+  list-style-type: none;
+  color: #fca011;
+}
+
+.calendario {
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #C8F2C7;
+  max-width: 50%;
+  padding: 35px;
+  background-color: #d0f4cf;
+  text-align: center;
+}
+
+.mesImg {
+  padding: 10px;
+}
+
+.cajitaMes {
+  position: relative;
+  display: inline-block;
+}
+
+.txtMes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 .carousel-inner img {
   margin: auto;
   width: 100%;
@@ -92,6 +179,9 @@ body {
 }
 
 .banner {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
   padding-top: 30px;
   padding-bottom: 20px;
 }
