@@ -146,6 +146,10 @@ footer a:hover {
 
 .mesImg {
   padding: 10px;
+  border: 2px solid white;
+}
+.mesImg:hover {
+  border: 2px solid #fca011;
 }
 
 .cajitaMes {
@@ -187,6 +191,24 @@ body {
 }
 .banner .banner_img {
   width: 100%;
+}
+
+#newsletter {
+  padding-top: 50px;
+}
+
+#btnSub {
+  background-color: #B8B8DF;
+  color: white;
+}
+
+#email {
+  margin-right: 10px;
+}
+
+.volverBtn {
+  background-color: #B8B8DF;
+  color: white;
 }
 
 /*# sourceMappingURL=estilo.css.map */

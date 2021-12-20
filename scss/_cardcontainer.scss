@@ -70,11 +70,17 @@
 
 .mesImg{
     padding: 10px;
+    border: 2px solid white;
+    &:hover{
+        border: 2px solid #fca011;
+    }
+
 }
 
 .cajitaMes{
     position: relative;
     display: inline-block;
+    
     
 }
 
@@ -85,3 +91,4 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
